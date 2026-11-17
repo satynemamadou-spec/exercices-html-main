@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="820" viewBox="0 0 600 820" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#455a64">
+  <rect width="600" height="820" fill="#ffffff"/>
+  <text x="20" y="28" font-size="13" fill="#90a4ae">MAQUETTE — PAGE D'ACCUEIL (index.html)</text>
+
+  <!-- header -->
+  <rect x="20" y="40" width="560" height="70" fill="#eceff1" stroke="#90a4ae" stroke-width="2"/>
+  <rect x="34" y="52" width="46" height="46" rx="23" fill="#cfd8dc" stroke="#90a4ae"/>
+  <text x="57" y="80" text-anchor="middle" font-size="11">logo</text>
+  <text x="96" y="82" font-size="20" font-weight="bold">Titre du site (h1)</text>
+  <text x="566" y="62" text-anchor="end" font-size="11" fill="#90a4ae">&lt;header&gt;</text>
+
+  <!-- nav -->
+  <rect x="20" y="120" width="560" height="40" fill="#f5f5f5" stroke="#90a4ae" stroke-width="2"/>
+  <text x="40" y="145">Accueil   ·   Fruits   ·   Légumes   ·   Céréales   ·   Contact</text>
+  <text x="566" y="133" text-anchor="end" font-size="11" fill="#90a4ae">&lt;nav&gt;</text>
+
+  <!-- intro -->
+  <rect x="20" y="172" width="560" height="200" fill="#eceff1" stroke="#90a4ae" stroke-width="2"/>
+  <path d="M20 172 L580 372 M580 172 L20 372" stroke="#cfd8dc" stroke-width="2"/>
+  <rect x="190" y="252" width="220" height="40" fill="#ffffff" stroke="#90a4ae"/>
+  <text x="300" y="277" text-anchor="middle">Grande image d'accueil</text>
+
+  <rect x="20" y="384" width="560" height="60" fill="#ffffff" stroke="#90a4ae" stroke-dasharray="6 4"/>
+  <text x="34" y="408">Texte de présentation : 2 ou 3 phrases (p)</text>
+  <text x="34" y="430" font-size="12" fill="#90a4ae">Pourquoi ce site ? À qui s'adresse-t-il ?</text>
+
+  <!-- cartes -->
+  <text x="20" y="474" font-size="17" font-weight="bold">Nos catégories (h2)</text>
+  <g>
+    <rect x="20" y="488" width="176" height="210" fill="#ffffff" stroke="#90a4ae" stroke-width="2"/>
+    <rect x="32" y="500" width="152" height="100" fill="#eceff1"/>
+    <path d="M32 500 L184 600 M184 500 L32 600" stroke="#cfd8dc" stroke-width="2"/>
+    <text x="32" y="626" font-weight="bold">Fruits (h3)</text>
+    <text x="32" y="648" font-size="12">Une phrase courte</text>
+    <text x="32" y="680" font-size="13" fill="#1e88e5" text-decoration="underline">Découvrir →</text>
+  </g>
+  <g>
+    <rect x="212" y="488" width="176" height="210" fill="#ffffff" stroke="#90a4ae" stroke-width="2"/>
+    <rect x="224" y="500" width="152" height="100" fill="#eceff1"/>
+    <path d="M224 500 L376 600 M376 500 L224 600" stroke="#cfd8dc" stroke-width="2"/>
+    <text x="224" y="626" font-weight="bold">Légumes (h3)</text>
+    <text x="224" y="648" font-size="12">Une phrase courte</text>
+    <text x="224" y="680" font-size="13" fill="#1e88e5" text-decoration="underline">Découvrir →</text>
+  </g>
+  <g>
+    <rect x="404" y="488" width="176" height="210" fill="#ffffff" stroke="#90a4ae" stroke-width="2"/>
+    <rect x="416" y="500" width="152" height="100" fill="#eceff1"/>
+    <path d="M416 500 L568 600 M568 500 L416 600" stroke="#cfd8dc" stroke-width="2"/>
+    <text x="416" y="626" font-weight="bold">Céréales (h3)</text>
+    <text x="416" y="648" font-size="12">Une phrase courte</text>
+    <text x="416" y="680" font-size="13" fill="#1e88e5" text-decoration="underline">Découvrir →</text>
+  </g>
+
+  <!-- footer -->
+  <rect x="20" y="720" width="560" height="70" fill="#eceff1" stroke="#90a4ae" stroke-width="2"/>
+  <text x="34" y="752">© 2026 — Prénom Nom · Contact</text>
+  <text x="34" y="774" font-size="12" fill="#90a4ae">Crédits des images</text>
+  <text x="566" y="738" text-anchor="end" font-size="11" fill="#90a4ae">&lt;footer&gt;</text>
+</svg>

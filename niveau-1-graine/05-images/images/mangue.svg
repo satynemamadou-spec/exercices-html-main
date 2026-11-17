@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="chair" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e53935"/>
+      <stop offset="0.45" stop-color="#fb8c00"/>
+      <stop offset="1" stop-color="#fdd835"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="#fff7e8"/>
+  <circle cx="200" cy="150" r="125" fill="#fde7c0"/>
+  <path d="M152 96 C202 60 292 86 302 162 C312 232 242 266 190 252 C130 234 94 176 120 130 C130 112 140 103 152 96 Z" fill="url(#chair)"/>
+  <ellipse cx="244" cy="128" rx="26" ry="11" fill="#ffffff" opacity="0.28" transform="rotate(32 244 128)"/>
+  <path d="M160 94 C156 78 150 66 140 58" stroke="#5d4037" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M142 60 C112 28 70 38 54 55 C88 78 120 74 142 60 Z" fill="#43a047"/>
+  <path d="M142 60 C112 54 86 53 58 55" stroke="#2e7d32" stroke-width="2" fill="none"/>
+</svg>

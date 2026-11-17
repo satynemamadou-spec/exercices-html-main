@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <defs>
+    <g id="banane">
+      <path d="M0 0 C28 104 150 128 206 52 C198 46 190 47 182 54 C138 104 40 90 18 -6 Z" fill="#fdd835" stroke="#c9a400" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M24 10 C50 80 130 98 180 62" stroke="#fff59d" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.8"/>
+      <path d="M200 50 L212 46 L208 58 Z" fill="#5d4037"/>
+    </g>
+  </defs>
+  <rect width="400" height="300" fill="#fffbe6"/>
+  <circle cx="200" cy="150" r="125" fill="#fbf0b8"/>
+  <use href="#banane" transform="translate(110 92) rotate(-22)"/>
+  <use href="#banane" transform="translate(110 92)"/>
+  <use href="#banane" transform="translate(110 92) rotate(22)"/>
+  <path d="M112 96 L92 62" stroke="#7cb342" stroke-width="14" stroke-linecap="round"/>
+  <path d="M92 62 L86 52" stroke="#6d4c41" stroke-width="10" stroke-linecap="round"/>
+</svg>

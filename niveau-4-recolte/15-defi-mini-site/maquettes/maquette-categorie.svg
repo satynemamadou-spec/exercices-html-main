@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="820" viewBox="0 0 600 820" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#455a64">
+  <defs>
+    <g id="vignette">
+      <rect width="168" height="150" fill="#ffffff" stroke="#90a4ae" stroke-width="2"/>
+      <rect x="10" y="10" width="148" height="96" fill="#eceff1"/>
+      <path d="M10 10 L158 106 M158 10 L10 106" stroke="#cfd8dc" stroke-width="2"/>
+      <text x="10" y="128" font-size="13" font-weight="bold">Nom (figcaption)</text>
+      <text x="10" y="144" font-size="11">1 phrase max</text>
+    </g>
+  </defs>
+  <rect width="600" height="820" fill="#ffffff"/>
+  <text x="20" y="28" font-size="13" fill="#90a4ae">MAQUETTE — PAGE CATÉGORIE (pages/fruits.html)</text>
+
+  <rect x="20" y="40" width="560" height="70" fill="#eceff1" stroke="#90a4ae" stroke-width="2"/>
+  <rect x="34" y="52" width="46" height="46" rx="23" fill="#cfd8dc" stroke="#90a4ae"/>
+  <text x="57" y="80" text-anchor="middle" font-size="11">logo</text>
+  <text x="96" y="82" font-size="18" font-weight="bold">Titre du site</text>
+  <text x="566" y="62" text-anchor="end" font-size="11" fill="#90a4ae">&lt;header&gt;</text>
+
+  <rect x="20" y="120" width="560" height="40" fill="#f5f5f5" stroke="#90a4ae" stroke-width="2"/>
+  <text x="40" y="145">Accueil   ·   <tspan font-weight="bold" text-decoration="underline">Fruits</tspan>   ·   Légumes   ·   Céréales   ·   Contact</text>
+  <text x="566" y="133" text-anchor="end" font-size="11" fill="#90a4ae">&lt;nav&gt;</text>
+
+  <text x="20" y="200" font-size="24" font-weight="bold">Les fruits (h1)</text>
+  <rect x="20" y="214" width="560" height="46" fill="#ffffff" stroke="#90a4ae" stroke-dasharray="6 4"/>
+  <text x="34" y="242">Introduction courte : 1 ou 2 phrases (p) — 20 % de texte max !</text>
+
+  <use href="#vignette" x="20" y="278"/>
+  <use href="#vignette" x="216" y="278"/>
+  <use href="#vignette" x="412" y="278"/>
+  <use href="#vignette" x="20" y="444"/>
+  <use href="#vignette" x="216" y="444"/>
+  <use href="#vignette" x="412" y="444"/>
+  <text x="580" y="612" text-anchor="end" font-size="11" fill="#90a4ae">6 × &lt;figure&gt; avec &lt;img&gt; + &lt;figcaption&gt;</text>
+
+  <rect x="20" y="628" width="230" height="40" fill="#ffffff" stroke="#1e88e5" stroke-width="2"/>
+  <text x="34" y="654" fill="#1e88e5" text-decoration="underline">↑ Retour au menu</text>
+
+  <rect x="20" y="720" width="560" height="70" fill="#eceff1" stroke="#90a4ae" stroke-width="2"/>
+  <text x="34" y="752">© 2026 — Prénom Nom · Contact</text>
+  <text x="34" y="774" font-size="12" fill="#90a4ae">Crédits des images</text>
+  <text x="566" y="738" text-anchor="end" font-size="11" fill="#90a4ae">&lt;footer&gt;</text>
+</svg>

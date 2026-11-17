@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="cabosse" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7a3b14"/>
+      <stop offset="0.5" stop-color="#d0802f"/>
+      <stop offset="1" stop-color="#7a3b14"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="#f7efe6"/>
+  <circle cx="200" cy="150" r="125" fill="#efdcc6"/>
+  <g transform="rotate(-35 200 150)">
+    <path d="M200 44 C246 54 266 112 263 158 C259 214 230 252 200 266 C170 252 141 214 137 158 C134 112 154 54 200 44 Z" fill="url(#cabosse)"/>
+    <path d="M200 46 C186 104 186 206 200 264 M200 46 C214 104 214 206 200 264 M200 46 C164 92 158 210 200 264 M200 46 C236 92 242 210 200 264" stroke="#5a2a0c" stroke-width="2" fill="none" opacity="0.55"/>
+    <path d="M200 46 L200 24" stroke="#4e342e" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>

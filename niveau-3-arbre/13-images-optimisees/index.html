@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notre parcelle d'essai — Exposition agricole</title>
+  <!-- CSS fourni : l'image ne dépasse jamais de l'écran (on verra le CSS plus tard) -->
+  <style>
+    img { max-width: 100%; height: auto; }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Logo en SVG : format vectoriel, net à toutes les tailles et très léger -->
+    <img src="images/logo.svg" alt="Logo de la ferme pédagogique" width="60" height="60">
+    <h1>Notre parcelle d'essai</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>La parcelle</h2>
+
+      <!-- TODO 4 : affichez images/parcelle-800.jpg avec alt, width="800" et height="533" -->
+
+      <!-- TODO 5 : remplacez votre <img> par un <picture> :
+           <source type="image/webp"> d'abord, puis l'<img> JPG en secours -->
+
+      <!-- TODO 6 : dans la <source> ET dans l'<img>, ajoutez un srcset avec les 3 tailles
+           (400w, 800w, 1600w) et l'attribut sizes="(max-width: 800px) 100vw, 800px" -->
+
+      <p>Cette parcelle de 2 hectares sert de terrain d'expérimentation. Les élèves y comparent plusieurs variétés de maïs et de haricot, cultivées côte à côte dans les mêmes conditions.</p>
+    </section>
+
+    <section>
+      <h2>Les étapes de la saison</h2>
+      <ol>
+        <li>Préparation du sol : désherbage et apport de compost.</li>
+        <li>Semis en lignes, au début de la saison des pluies.</li>
+        <li>Paillage entre les rangs pour garder l'humidité.</li>
+        <li>Suivi de la croissance : une mesure par semaine.</li>
+        <li>Récolte et pesée de chaque variété.</li>
+        <li>Bilan : quelle variété a le mieux produit ?</li>
+      </ol>
+      <p>Chaque étape est notée dans un carnet de culture. À la fin de la saison, les résultats sont présentés aux familles et aux agriculteurs du village voisin.</p>
+      <p>Les rangs de haricots, une légumineuse, enrichissent le sol en azote : ils profitent ensuite à la culture suivante. C'est le principe de la rotation des cultures.</p>
+      <p>Le paillage limite aussi la pousse des mauvaises herbes. Les élèves comparent chaque semaine une ligne paillée et une ligne non paillée.</p>
+    </section>
+
+    <section>
+      <h2>Souvenir de la récolte</h2>
+      <p>Une vignette de la parcelle, prise le jour de la dernière récolte.</p>
+
+      <!-- TODO 7 : affichez images/parcelle-400.jpg (400 × 267) avec un alt et loading="lazy" -->
+
+    </section>
+  </main>
+
+  <footer>
+    <p><small>Ferme pédagogique — Sprint 1 DFS</small></p>
+  </footer>
+</body>
+</html>

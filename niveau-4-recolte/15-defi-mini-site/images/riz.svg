@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <defs>
+    <ellipse id="grain" rx="4" ry="7" fill="#e8c66a" stroke="#b8902a" stroke-width="1"/>
+  </defs>
+  <rect width="400" height="300" fill="#f4f8ea"/>
+  <circle cx="200" cy="150" r="125" fill="#e3edc8"/>
+  <path d="M120 276 C150 270 250 270 280 276 L272 290 L128 290 Z" fill="#8d6e63"/>
+  <g fill="none" stroke="#5f9e36" stroke-width="5" stroke-linecap="round">
+    <path d="M200 276 C196 200 170 120 120 96"/>
+    <path d="M206 276 C210 190 240 120 292 100"/>
+    <path d="M196 276 C190 150 210 90 214 60"/>
+  </g>
+  <g fill="#7cb342">
+    <path d="M190 276 C150 230 128 190 112 150 C140 180 168 220 198 270 Z"/>
+    <path d="M212 276 C252 230 276 196 296 160 C266 186 236 224 204 270 Z"/>
+  </g>
+  <use href="#grain" transform="translate(120 96) rotate(60)"/>
+  <use href="#grain" transform="translate(110 108) rotate(30)"/>
+  <use href="#grain" transform="translate(104 122) rotate(10)"/>
+  <use href="#grain" transform="translate(102 137)"/>
+  <use href="#grain" transform="translate(132 104) rotate(70)"/>
+  <use href="#grain" transform="translate(292 100) rotate(-60)"/>
+  <use href="#grain" transform="translate(302 112) rotate(-30)"/>
+  <use href="#grain" transform="translate(308 126) rotate(-10)"/>
+  <use href="#grain" transform="translate(310 141)"/>
+  <use href="#grain" transform="translate(280 106) rotate(-70)"/>
+  <use href="#grain" transform="translate(214 60) rotate(-20)"/>
+  <use href="#grain" transform="translate(224 70) rotate(20)"/>
+  <use href="#grain" transform="translate(230 84) rotate(10)"/>
+  <use href="#grain" transform="translate(234 99)"/>
+  <use href="#grain" transform="translate(220 78) rotate(-5)"/>
+</svg>

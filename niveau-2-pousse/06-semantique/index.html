@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Le blog du Potager Malin</title>
+</head>
+<body>
+  <!--
+    Cette page s'affiche correctement… mais elle n'utilise QUE des <div> et des <span>.
+    Votre mission : la réécrire avec des balises sémantiques (voir README.md).
+  -->
+
+  <!-- TODO 1 : en-tête → <header>, le nom du blog devient le <h1>, le slogan un <p> -->
+  <div class="entete">
+    <div class="gros-titre">Le blog du Potager Malin</div>
+    <div class="slogan">Des conseils simples pour jardiner sans gaspiller</div>
+  </div>
+
+  <!-- TODO 2 : menu → <nav> + une liste <ul>/<li> de liens (supprimez les « | ») -->
+  <div class="menu">
+    <a href="#compost">Compost</a> | <a href="#paillage">Paillage</a> | <a href="#conseil">Conseil de la semaine</a>
+  </div>
+
+  <!-- TODO 3 : contenu principal → <main> -->
+  <div class="contenu">
+
+    <!-- TODO 4 : article → <article>, titre → <h2> (gardez l'id) -->
+    <div class="article" id="compost">
+      <div class="gros-titre">Faire son compost</div>
+      <!-- TODO 5 : date → <time datetime="AAAA-MM-JJ"> -->
+      <div class="date">Publié le 10 novembre 2026</div>
+      <!-- TODO 7 : textes → <p>, <span class="gras"> → <strong> -->
+      <div class="texte">Le compost transforme vos déchets de cuisine et de jardin en un engrais naturel et gratuit. Pour le réussir, il faut mélanger deux types de matières :</div>
+      <!-- TODO 6 : fausse liste → vraie liste <ul>/<li> -->
+      <div>- les matières « vertes », riches en azote : épluchures de fruits et de légumes, tontes de gazon ;</div>
+      <div>- les matières « brunes », riches en carbone : feuilles mortes, branches broyées, carton non imprimé.</div>
+      <div class="texte">Gardez le tas <span class="gras">humide comme une éponge essorée</span> et retournez-le régulièrement pour l'aérer. Au bout de quelques mois, vous obtenez un terreau sombre qui sent bon la forêt.</div>
+    </div>
+
+    <div class="article" id="paillage">
+      <div class="gros-titre">Pailler pour économiser l'eau</div>
+      <div class="date">Publié le 3 novembre 2026</div>
+      <div class="texte">Pailler, c'est couvrir le sol au pied des plantes avec une couche de matière organique : paille, feuilles sèches, herbe séchée…</div>
+      <div class="texte">Le paillage a trois avantages :</div>
+      <div>- il limite l'évaporation : le sol reste humide plus longtemps ;</div>
+      <div>- il empêche une grande partie des mauvaises herbes de pousser ;</div>
+      <div>- en se décomposant, il nourrit le sol.</div>
+      <div class="texte">Résultat : vous arrosez <span class="gras">moins souvent</span>.</div>
+    </div>
+
+  </div>
+
+  <!-- TODO 8 : encadré → <aside> avec un titre <h2> -->
+  <div class="encadre" id="conseil">
+    <div class="gros-titre">Le conseil de la semaine</div>
+    <div class="texte">Arrosez tôt le matin ou en fin de journée : moins d'eau s'évapore qu'en plein soleil.</div>
+  </div>
+
+  <!-- TODO 9 : pied de page → <footer> -->
+  <div class="pied">
+    <div>© 2026 Le blog du Potager Malin</div>
+    <div>Contact : <a href="mailto:contact@example.com">contact@example.com</a></div>
+  </div>
+</body>
+</html>

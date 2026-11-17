@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <defs>
+    <pattern id="grains" width="12" height="10" patternUnits="userSpaceOnUse">
+      <rect width="12" height="10" fill="#e0a800"/>
+      <ellipse cx="6" cy="5" rx="5.2" ry="4.2" fill="#ffd43b"/>
+      <ellipse cx="4.5" cy="3.6" rx="1.6" ry="1.1" fill="#fff3bf"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="300" fill="#fbf6e6"/>
+  <circle cx="200" cy="150" r="125" fill="#f1e7c4"/>
+  <path d="M200 272 C150 232 128 150 148 58 C165 122 180 182 200 232 Z" fill="#74b05a"/>
+  <path d="M200 272 C250 232 272 150 252 58 C235 122 220 182 200 232 Z" fill="#74b05a"/>
+  <ellipse cx="200" cy="142" rx="40" ry="102" fill="url(#grains)"/>
+  <path d="M200 278 C158 252 138 200 152 146 C170 198 186 236 208 256 Z" fill="#4e8a3a"/>
+  <path d="M200 278 C242 252 262 200 248 146 C230 198 214 236 192 256 Z" fill="#4e8a3a"/>
+  <path d="M200 42 C195 26 189 18 180 12 M200 42 C203 26 207 17 216 10 M200 42 C200 28 199 18 201 7" stroke="#a0522d" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+</svg>

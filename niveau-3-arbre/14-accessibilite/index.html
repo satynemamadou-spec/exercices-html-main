@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- ATTENTION : cette page contient VOLONTAIREMENT de nombreux problèmes d'accessibilité.
+       Votre mission : les trouver et les corriger (voir README.md). -->
+  <div>
+    <a href="index.html"><img src="images/logo.svg" alt="" width="80" height="80"></a>
+    <h1>Le marché bio du quartier</h1>
+    <div>
+      <a href="#produits">Produits</a> | <a href="#horaires">Horaires</a> | <a href="#contact">Contact</a>
+    </div>
+  </div>
+
+  <img src="images/feuille-deco.svg" alt="Image décorative d'une ligne verte avec deux feuilles au milieu, qui sert à séparer les parties de la page" width="600" height="40">
+
+  <div>
+    <h1>Bienvenue !</h1>
+    <p>Deux fois par semaine, une quinzaine de producteurs de la région vendent leurs fruits, leurs légumes et leurs céréales cultivés sans pesticides de synthèse. Pour nous écrire, <a href="#contact">cliquez ici</a>.</p>
+
+    <p id="produits"><b>Nos produits</b></p>
+    <p>Des produits de saison, récoltés la veille :</p>
+    <img src="images/tomate.svg" alt="image" width="200" height="150">
+    <img src="images/mangue.svg" alt="photo1.svg" width="200" height="150">
+    <img src="images/mais.svg" alt="image" width="200" height="150">
+
+    <h4 id="horaires">Les horaires</h4>
+    <table>
+      <tr>
+        <td>Jour</td>
+        <td>Horaires</td>
+      </tr>
+      <tr>
+        <td>Mercredi</td>
+        <td>15 h – 19 h</td>
+      </tr>
+      <tr>
+        <td>Samedi</td>
+        <td>7 h – 13 h</td>
+      </tr>
+    </table>
+
+    <p>Rechercher un producteur :</p>
+    <form action="#">
+      <input type="search" name="q" placeholder="Nom du producteur">
+      <button type="submit">OK</button>
+    </form>
+
+    <p>Qu'est-ce que l'agriculture biologique ? <a href="https://fr.wikipedia.org/wiki/Agriculture_biologique" target="_blank" rel="noopener">Lire la suite</a></p>
+  </div>
+
+  <div id="contact">
+    <p>Contact : marche-bio@example.com</p>
+    <p>© 2026 Marché bio du quartier</p>
+  </div>
+</body>
+</html>
