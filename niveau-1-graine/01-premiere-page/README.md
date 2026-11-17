@@ -81,12 +81,18 @@ Une fois que vous savez écrire la structure de mémoire, VS Code peut la géné
 - Ajoutez un deuxième paragraphe : ce que vous aimeriez créer comme site web à la fin de la formation.
 - Créez une copie de votre fichier et changez seulement le `<title>`. Ouvrez les deux pages dans deux onglets : voyez-vous la différence ?
 
+
 ## Questions de compréhension
 
 1. Quelle est la différence entre le `<head>` et le `<body>` ?
+head c'est l' entête et body cest le corps de la structuration 
 2. À quoi sert l'attribut `lang="fr"` ? (Pensez aux lecteurs d'écran et aux moteurs de recherche.)
+il sert a signifie que le site web est ecris en français et permet de retrouver le site dans le moteur de recherche en français
 3. À quoi sert la ligne `<!DOCTYPE html>` ?
+il sert a dire que nous somme dans un programme de structuration qui est html et sans cette ligne la structuration ne peut être effectué.
 4. Pourquoi est-il utile d'écrire des commentaires dans son code, alors qu'ils ne s'affichent pas ?
+il est utile d'ecrire des commentaire dans son texte parceque ces commentaires permettent de bien orginiser le travail 
+de le rendre lisible et de savoir le but recherche de chaque partie de code .
 
 ## Lien avec le brief PlantEvo
 
