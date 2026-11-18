@@ -101,6 +101,7 @@ La sous-liste se place **dans** le `<li>`, juste après son texte, **avant** la 
 
 1. Quelle est la différence entre `<ul>` et `<ol>` ? Donnez un exemple d'utilisation pour chacune.
 2. Quelles balises peut-on placer directement dans un `<ul>` ?
+
 3. Le saviez-vous ? Pour un botaniste, la tomate est un **fruit** : elle se forme à partir de la fleur et contient les graines. En cuisine, on la range pourtant avec les légumes.
 
 ## Lien avec le brief PlantEvo
